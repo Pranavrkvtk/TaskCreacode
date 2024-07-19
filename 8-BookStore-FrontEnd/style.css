@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  */
+
+    background:url(/Popo.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    
+}
+
+/* Main container */
+.maindiv {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    color: #333333; /* Dark gray text */
+    margin-bottom: 20px;
+}
+
+/* Form container */
+.loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image container */
+.imageinnerLoginform {
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+#img2 {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Rounded image */
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555; /* Medium gray text */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: calc(100% - 20px); /* Adjust width minus padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd; /* Light gray border */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50; /* Green border on focus */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Forgot password link */
+a {
+    color: #007bff; /* Blue link */
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
